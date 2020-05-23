@@ -32,4 +32,4 @@ The trending topics page is the first thing you see after you log in (or when yo
 When you tap a topic or hashtag, Consensus uses its natural language processing model, trained on over 1,000 tweets, to perform a sentiment analysis on the subject. Based on its analysis, it displays an emoji and a sentence to describe how Twitter users feel about a particular trend.
 </p>
 
-
+--------------------------------------------------------------------------------------------------------------------------------------------
