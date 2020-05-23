@@ -1,21 +1,15 @@
 # Consensus-App
 
 <p align="center">
-  <img src="https://github.com/drkuster/Consensus-App/blob/master/Consensus_Screenshots/IMG_3771.PNG?raw=true">
+<img src="https://github.com/drkuster/Consensus-App/blob/master/Consensus_Screenshots/WelcomeScreen.png?raw=true">
 </p>
 
 <p align="center">
-The Consensus App is made to be an extension of Twitter. You can log in with your Twitter account and view a list of trending topics and hashtags. When you tap a topic or hashtag, Consensus pulls a mix of 25 recent and popular topic related tweets, performs a sentiment analysis on each one, and determines Twitter's consensus on the trend.
-</p>
-
---------------------------------------------------------------------------------------------------------------------------------------------
-
-<p align="center">
-  <img src="https://github.com/drkuster/Consensus-App/blob/master/Consensus_Screenshots/IMG_3772.PNG?raw=true">
+The Consensus App is made to be an extension of Twitter. You can log in with your Twitter account and view a list of trending topics and hashtags. When you tap a topic or hashtag, Consensus pulls a mix of 25 recent and popular topic related tweets, performs a sentiment analysis on each one, and determines Twitter's consensus on the trend. 
 </p>
 
 <p align="center">
-Consensus welcomes you when you log in! It also persists your log in state by storing your session oath token.
+When you successfully authorize Twitter to use Consensus, Consensus greets you with your Twitter name. It also persists your log in state by storing your session oath token.
 </p>
 
 --------------------------------------------------------------------------------------------------------------------------------------------
