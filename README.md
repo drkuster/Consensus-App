@@ -1,7 +1,7 @@
 # Konsensus-App
 
 <p align="center">
-<img src="https://github.com/drkuster/Consensus-App/blob/master/Consensus_Screenshots/WelcomeScreen.png?raw=true">
+<img src="https://github.com/drkuster/Konsensus-App/blob/master/Konsensus_Screenshots/Begin.png?raw=true">
 </p>
 
 <p align="center">
@@ -15,7 +15,7 @@ When you successfully authorize Twitter to use Konsensus, Konsensus greets you w
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 <p align="center">
-  <img src="https://github.com/drkuster/Consensus-App/blob/master/Consensus_Screenshots/IMG_3774.PNG?raw=true">
+  <img src="https://github.com/drkuster/Konsensus-App/blob/master/Konsensus_Screenshots/trend-screen.png?raw=true">
 </p>
 
 <p align="center">
@@ -25,7 +25,7 @@ The trending topics page is the first thing you see after you log in (or when yo
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 <p align="center">
-  <img src="https://github.com/drkuster/Consensus-App/blob/master/Consensus_Screenshots/IMG_3776.PNG?raw=true">
+  <img src="https://github.com/drkuster/Konsensus-App/blob/master/Konsensus_Screenshots/result-screen.png?raw=true">
 </p>
 
 <p align="center">
