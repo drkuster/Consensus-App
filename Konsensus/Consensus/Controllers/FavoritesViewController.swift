@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import TwitterKit
 import SwifteriOS
 import SwiftyJSON
 import CoreML
@@ -37,7 +36,7 @@ class FavoritesViewController: UIViewController
     var total = 0
     var activityData : ActivityData?
     var refreshControl = UIRefreshControl()
-    let swifter = Swifter(consumerKey: K.apiKey, consumerSecret: K.sercretKey, oauthToken: K.oathToken!, oauthTokenSecret: K.oathSecretToken!)
+    let swifter = Swifter(consumerKey: K.apiKey, consumerSecret: K.sercretKey)
     
     override func viewDidLoad()
     {
@@ -65,7 +64,7 @@ class FavoritesViewController: UIViewController
             self.trendTable.reloadData()
         })
         { (error) in
-            print(error)
+            fatalError(error.localizedDescription)
         }
         self.trendTable.backgroundColor = UIColor(red: 0.22, green: 0.63, blue: 0.95, alpha: 1.00)
         trendTable.separatorStyle = .none
@@ -92,7 +91,7 @@ class FavoritesViewController: UIViewController
             }
         })
         { (error) in
-            print(error)
+            fatalError(error.localizedDescription)
         }
      }
     
@@ -135,7 +134,7 @@ class FavoritesViewController: UIViewController
 
         catch let error
         {
-            print(error)
+            fatalError(error.localizedDescription)
         }
     }
     
@@ -259,7 +258,7 @@ extension FavoritesViewController : UITableViewDelegate, UITableViewDataSource
                 self.analyzeTweets(tweets: tweetsToAnalyze)
                 self.performSegue(withIdentifier: K.trendSegue, sender: self)
             }) { (error) in
-                print(error)
+                fatalError(error.localizedDescription)
             }
         }
     }

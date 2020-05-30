@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qNE-pR-j3G">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nZf-A8-7qJ">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -206,150 +206,10 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="880.58035714285711"/>
         </scene>
-        <!--Think View Controller-->
-        <scene sceneID="L7O-bI-MHe">
-            <objects>
-                <viewController storyboardIdentifier="think" id="qNE-pR-j3G" customClass="ThinkViewController" customModule="Konsensus" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="9PO-VO-Xgb">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appstore" translatesAutoresizingMaskIntoConstraints="NO" id="FHy-hz-IOa">
-                                <rect key="frame" x="82" y="233.33333333333337" width="250" height="250"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="250" id="ez5-if-G7z"/>
-                                    <constraint firstAttribute="height" constant="250" id="oQE-z6-XzD"/>
-                                </constraints>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" red="0.21960784310000001" green="0.63137254899999995" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="FHy-hz-IOa" firstAttribute="centerY" secondItem="9PO-VO-Xgb" secondAttribute="centerY" multiplier="0.8" id="29k-7P-gum"/>
-                            <constraint firstItem="FHy-hz-IOa" firstAttribute="centerX" secondItem="9PO-VO-Xgb" secondAttribute="centerX" id="94R-2s-CuX"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="Gj0-Rs-8RA"/>
-                    </view>
-                    <connections>
-                        <segue destination="lv9-49-77A" kind="presentation" identifier="thinkToLogin" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="G35-t7-oyy"/>
-                        <segue destination="KiA-rC-WLe" kind="presentation" identifier="thinkToWelcome" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="b9Z-jj-I9w"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="pR7-W5-bbl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2074" y="-297"/>
-        </scene>
-        <!--Log In View Controller-->
-        <scene sceneID="V3e-aO-Cck">
-            <objects>
-                <viewController storyboardIdentifier="login" id="lv9-49-77A" customClass="LogInViewController" customModule="Konsensus" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="xRg-5w-K9G">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cN5-Y5-fq2">
-                                <rect key="frame" x="0.0" y="756" width="414" height="140"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="140" id="0h0-mB-CdE"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="38"/>
-                                <state key="normal" title="Log in with Twitter">
-                                    <color key="titleColor" red="0.21960784310000001" green="0.63137254899999995" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="loginPressed:" destination="lv9-49-77A" eventType="touchUpInside" id="XQN-8F-IcH"/>
-                                </connections>
-                            </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jes-yA-fBr">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="150"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Konsensus" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="Ci7-Vs-3Ib">
-                                        <rect key="frame" x="0.0" y="60" width="414" height="80"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="80" id="TCW-ra-KF2"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="60"/>
-                                        <color key="textColor" red="0.21960784310000001" green="0.63137254899999995" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="Ci7-Vs-3Ib" secondAttribute="bottom" constant="10" id="A21-i6-UyN"/>
-                                    <constraint firstAttribute="trailing" secondItem="Ci7-Vs-3Ib" secondAttribute="trailing" id="GtT-7G-weK"/>
-                                    <constraint firstAttribute="height" constant="150" id="whS-zJ-6Cb"/>
-                                    <constraint firstItem="Ci7-Vs-3Ib" firstAttribute="leading" secondItem="Jes-yA-fBr" secondAttribute="leading" id="xTw-uO-9fd"/>
-                                </constraints>
-                            </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Emoji-Cover" translatesAutoresizingMaskIntoConstraints="NO" id="MQA-gE-J52">
-                                <rect key="frame" x="0.0" y="150" width="414" height="606"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" red="0.21960784310000001" green="0.63137254899999995" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="cN5-Y5-fq2" firstAttribute="top" secondItem="MQA-gE-J52" secondAttribute="bottom" id="6Y5-ni-d99"/>
-                            <constraint firstItem="Jes-yA-fBr" firstAttribute="leading" secondItem="rxl-jY-pmJ" secondAttribute="leading" id="BEg-tO-OuM"/>
-                            <constraint firstItem="MQA-gE-J52" firstAttribute="leading" secondItem="rxl-jY-pmJ" secondAttribute="leading" id="Cfi-Xe-RV7"/>
-                            <constraint firstItem="cN5-Y5-fq2" firstAttribute="trailing" secondItem="rxl-jY-pmJ" secondAttribute="trailing" id="FSi-GW-Wbt"/>
-                            <constraint firstItem="Jes-yA-fBr" firstAttribute="top" secondItem="xRg-5w-K9G" secondAttribute="top" id="Gsl-w4-37w"/>
-                            <constraint firstItem="Jes-yA-fBr" firstAttribute="trailing" secondItem="rxl-jY-pmJ" secondAttribute="trailing" id="KmT-ZX-4uc"/>
-                            <constraint firstAttribute="bottom" secondItem="cN5-Y5-fq2" secondAttribute="bottom" id="d5w-5H-ZTf"/>
-                            <constraint firstItem="MQA-gE-J52" firstAttribute="top" secondItem="Jes-yA-fBr" secondAttribute="bottom" id="nrL-h8-Zom"/>
-                            <constraint firstItem="cN5-Y5-fq2" firstAttribute="leading" secondItem="rxl-jY-pmJ" secondAttribute="leading" id="nvz-PF-5Qd"/>
-                            <constraint firstItem="rxl-jY-pmJ" firstAttribute="trailing" secondItem="MQA-gE-J52" secondAttribute="trailing" id="oGC-p6-Ggw"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="rxl-jY-pmJ"/>
-                    </view>
-                    <connections>
-                        <outlet property="labelHeight" destination="TCW-ra-KF2" id="lOK-cM-kHb"/>
-                        <outlet property="loginButton" destination="cN5-Y5-fq2" id="4Gj-Oj-E9Y"/>
-                        <outlet property="loginButtonHeight" destination="0h0-mB-CdE" id="SNC-xP-jTY"/>
-                        <outlet property="titleHeight" destination="whS-zJ-6Cb" id="3HS-jX-bUO"/>
-                        <outlet property="titleView" destination="Jes-yA-fBr" id="nod-Zb-XDO"/>
-                        <segue destination="KiA-rC-WLe" kind="presentation" identifier="goToWelcome" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="sV0-1Y-Jde"/>
-                        <segue destination="nZf-A8-7qJ" kind="presentation" identifier="goToHomeLOGGEDIN" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="hAL-MF-CCO"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HKS-dg-Ei3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-858" y="-684"/>
-        </scene>
-        <!--Welcome View Controller-->
-        <scene sceneID="5Ac-MZ-LaN">
-            <objects>
-                <viewController storyboardIdentifier="welcomeVC" id="KiA-rC-WLe" customClass="WelcomeViewController" customModule="Konsensus" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="39U-Uh-KCH">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome, Name! 😄" textAlignment="center" lineBreakMode="headTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.10000000000000001" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xlr-DA-ODe">
-                                <rect key="frame" x="20" y="245.33333333333337" width="374" height="136.66666666666663"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="50"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="0.21960784310000001" green="0.63137254899999995" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="R7U-t5-qlO" firstAttribute="trailing" secondItem="xlr-DA-ODe" secondAttribute="trailing" constant="20" id="CtH-Da-fFf"/>
-                            <constraint firstItem="xlr-DA-ODe" firstAttribute="centerY" secondItem="39U-Uh-KCH" secondAttribute="centerY" multiplier="0.7" id="SAG-f6-1pV"/>
-                            <constraint firstItem="xlr-DA-ODe" firstAttribute="leading" secondItem="R7U-t5-qlO" secondAttribute="leading" constant="20" id="pAq-y0-x8y"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="R7U-t5-qlO"/>
-                    </view>
-                    <connections>
-                        <outlet property="welcomeLabel" destination="xlr-DA-ODe" id="vOy-5w-MkB"/>
-                        <segue destination="nZf-A8-7qJ" kind="presentation" identifier="goToHome" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="7Il-yw-WXB"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DEo-vI-6QP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-857.97101449275374" y="138.61607142857142"/>
-        </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab View Controller-->
         <scene sceneID="pvv-Rs-NAj">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="nZf-A8-7qJ" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="nZf-A8-7qJ" customClass="TabViewController" customModule="Konsensus" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="SCk-J0-KDo">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
@@ -452,13 +312,7 @@
             <point key="canvasLocation" x="138" y="1621"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="7Il-yw-WXB"/>
-        <segue reference="sV0-1Y-Jde"/>
-    </inferredMetricsTieBreakers>
     <resources>
-        <image name="Emoji-Cover" width="1000" height="2000"/>
-        <image name="appstore" width="1024" height="1024"/>
         <image name="house" catalog="system" width="128" height="110"/>
     </resources>
 </document>

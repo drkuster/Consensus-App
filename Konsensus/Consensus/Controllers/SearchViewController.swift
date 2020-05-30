@@ -44,7 +44,6 @@ class SearchViewController: UIViewController
         searchView.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.3).cgColor
         searchView.layer.shadowOffset = CGSize(width: 0 , height: 3)
         activityData = ActivityData(size: CGSize(width: 50, height: 50), message: "", type: .ballPulseSync)
-        _ = Swifter(consumerKey: K.apiKey, consumerSecret: K.sercretKey, oauthToken: K.oathToken!, oauthTokenSecret: K.oathSecretToken!)
         
         topicSearchBar.backgroundImage = UIImage()
         topicSearchBar.backgroundColor = .clear
@@ -80,7 +79,7 @@ class SearchViewController: UIViewController
 
         catch let error
         {
-            print(error)
+            fatalError(error.localizedDescription)
         }
     }
     
@@ -217,7 +216,7 @@ extension SearchViewController : UISearchBarDelegate, NVActivityIndicatorViewabl
                 self.analyzeTweets(tweets: tweetsToAnalyze)
                 self.performSegue(withIdentifier: K.searchTopicSegue, sender: self)
             }) { (error) in
-                print(error)
+                fatalError(error.localizedDescription)
             }
         }
     }

@@ -10,12 +10,11 @@
 		85ED6134470D938ED7C8F872 /* Pods_Consensus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A01FBBFBF4237F8EA49A0BE /* Pods_Consensus.framework */; };
 		AA47FDD3248184E000215775 /* TweetClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AA47FDD2248184E000215775 /* TweetClassifier.mlmodel */; };
 		AA4C2E61247C55B2006D2C93 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C2E60247C55B2006D2C93 /* SearchResultViewController.swift */; };
-		AA5AA6B12481930C008C45D1 /* ThinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5AA6B02481930C008C45D1 /* ThinkViewController.swift */; };
+		AA60145C2482E9AA00E46E4D /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA60145B2482E9AA00E46E4D /* TabViewController.swift */; };
+		AA6014652482F0B800E46E4D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA6014642482F0B800E46E4D /* GoogleService-Info.plist */; };
 		AA639C6A2477493E00E2A85C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA639C692477493E00E2A85C /* SearchViewController.swift */; };
-		AA66D90724720B76007278F0 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66D90624720B76007278F0 /* LogInViewController.swift */; };
 		AA66D9092472117D007278F0 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA66D9082472117D007278F0 /* SafariServices.framework */; };
 		AA66D90B24721465007278F0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66D90A24721465007278F0 /* Constants.swift */; };
-		AA66D91024721655007278F0 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66D90F24721655007278F0 /* WelcomeViewController.swift */; };
 		AA67114A24734E620020885E /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA67114124734E2A0020885E /* SwifteriOS.framework */; };
 		AA67114B24734E620020885E /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA67114124734E2A0020885E /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AA671150247356320020885E /* TrendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA67114E247356320020885E /* TrendTableViewCell.swift */; };
@@ -88,12 +87,11 @@
 		8E7B900610388206903170F8 /* Pods-Consensus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Consensus.release.xcconfig"; path = "Target Support Files/Pods-Consensus/Pods-Consensus.release.xcconfig"; sourceTree = "<group>"; };
 		AA47FDD2248184E000215775 /* TweetClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TweetClassifier.mlmodel; sourceTree = "<group>"; };
 		AA4C2E60247C55B2006D2C93 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
-		AA5AA6B02481930C008C45D1 /* ThinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkViewController.swift; sourceTree = "<group>"; };
+		AA60145B2482E9AA00E46E4D /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		AA6014642482F0B800E46E4D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AA639C692477493E00E2A85C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		AA66D90624720B76007278F0 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		AA66D9082472117D007278F0 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		AA66D90A24721465007278F0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		AA66D90F24721655007278F0 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		AA67113824734E2A0020885E /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = ../../../../Desktop/Swifter/Swifter.xcodeproj; sourceTree = "<group>"; };
 		AA67114E247356320020885E /* TrendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendTableViewCell.swift; sourceTree = "<group>"; };
 		AA67114F247356320020885E /* TrendTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrendTableViewCell.xib; sourceTree = "<group>"; };
@@ -136,12 +134,10 @@
 			isa = PBXGroup;
 			children = (
 				AAC388CC24708032007CD50C /* FavoritesViewController.swift */,
-				AA66D90624720B76007278F0 /* LogInViewController.swift */,
-				AA66D90F24721655007278F0 /* WelcomeViewController.swift */,
 				AABF36D42475E59700C3FC8C /* TrendViewController.swift */,
 				AA639C692477493E00E2A85C /* SearchViewController.swift */,
 				AA4C2E60247C55B2006D2C93 /* SearchResultViewController.swift */,
-				AA5AA6B02481930C008C45D1 /* ThinkViewController.swift */,
+				AA60145B2482E9AA00E46E4D /* TabViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -207,6 +203,7 @@
 				AA66D90D2472147C007278F0 /* Views */,
 				AA66D90E2472148D007278F0 /* Supporting Files */,
 				AAC388D624708033007CD50C /* Info.plist */,
+				AA6014642482F0B800E46E4D /* GoogleService-Info.plist */,
 				AA47FDD2248184E000215775 /* TweetClassifier.mlmodel */,
 			);
 			path = Consensus;
@@ -233,9 +230,8 @@
 				AAC388C224708032007CD50C /* Frameworks */,
 				AAC388C324708032007CD50C /* Resources */,
 				0E8A1826CA587CB3E22934C7 /* [CP] Embed Pods Frameworks */,
-				815250A74841BE51C9E689D8 /* [CP] Copy Pods Resources */,
 				AA67114C24734E620020885E /* Embed Frameworks */,
-				AA546DA424815FBE00E4C238 /* ShellScript */,
+				AA60145E2482EE2E00E46E4D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -333,6 +329,7 @@
 				AAC388D224708033007CD50C /* Assets.xcassets in Resources */,
 				AAC388D024708032007CD50C /* Main.storyboard in Resources */,
 				AA671151247356320020885E /* TrendTableViewCell.xib in Resources */,
+				AA6014652482F0B800E46E4D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,24 +375,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		815250A74841BE51C9E689D8 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Consensus/Pods-Consensus-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Consensus/Pods-Consensus-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Consensus/Pods-Consensus-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AA546DA424815FBE00E4C238 /* ShellScript */ = {
+		AA60145E2482EE2E00E46E4D /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -403,6 +383,8 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
 			);
 			outputFileListPaths = (
 			);
@@ -410,7 +392,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nreadonly MODULEMAP=\"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework/Modules/module.private.modulemap\"\nreadonly HEADER=\"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework/Headers/TwitterCore.h\"\n\nif ! grep -q \"TwitterCore_Private\" \"${MODULEMAP}\"; then\ncat >\"${MODULEMAP}\" <<EOL\nmodule TwitterCore_Private {\n}\nEOL\nfi\n\nif ! grep -q \"TWTRColorUtil.h\" \"${HEADER}\"; then\ncat >>\"${HEADER}\" <<EOL\n#import \"TWTRColorUtil.h\"\nEOL\nfi\n";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -422,14 +404,12 @@
 				AA639C6A2477493E00E2A85C /* SearchViewController.swift in Sources */,
 				AABF36D52475E59700C3FC8C /* TrendViewController.swift in Sources */,
 				AAC388CD24708032007CD50C /* FavoritesViewController.swift in Sources */,
-				AA66D91024721655007278F0 /* WelcomeViewController.swift in Sources */,
 				AAC388C924708032007CD50C /* AppDelegate.swift in Sources */,
-				AA66D90724720B76007278F0 /* LogInViewController.swift in Sources */,
 				AA66D90B24721465007278F0 /* Constants.swift in Sources */,
 				AA4C2E61247C55B2006D2C93 /* SearchResultViewController.swift in Sources */,
 				AA671150247356320020885E /* TrendTableViewCell.swift in Sources */,
-				AA5AA6B12481930C008C45D1 /* ThinkViewController.swift in Sources */,
 				AA47FDD3248184E000215775 /* TweetClassifier.mlmodel in Sources */,
+				AA60145C2482E9AA00E46E4D /* TabViewController.swift in Sources */,
 				AABF36CD2475E20C00C3FC8C /* TweetTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -489,7 +469,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -583,7 +563,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.05;
+				MARKETING_VERSION = 1.06;
 				PRODUCT_BUNDLE_IDENTIFIER = com.DylanKuster.Konsensus;
 				PRODUCT_NAME = Konsensus;
 				SWIFT_VERSION = 5.0;
@@ -604,7 +584,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.05;
+				MARKETING_VERSION = 1.06;
 				PRODUCT_BUNDLE_IDENTIFIER = com.DylanKuster.Konsensus;
 				PRODUCT_NAME = Konsensus;
 				SWIFT_VERSION = 5.0;
